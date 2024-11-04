@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/streamlit_searchbox-{{ version }}.tar.gz
   sha256: ee2e7e666c909d4ca20eeb8fa9f1bb88ac6f17e0f07cc7aa10e24ba597ee0bb4
-  patches:
-    - 0001-remove-tests-from-distribution.patch
 
 build:
   noarch: python
