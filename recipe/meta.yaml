@@ -1,5 +1,5 @@
 {% set name = "streamlit-searchbox" %}
-{% set version = "0.1.19" %}
+{% set version = "0.1.20" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/streamlit_searchbox-{{ version }}.tar.gz
-  sha256: ee2e7e666c909d4ca20eeb8fa9f1bb88ac6f17e0f07cc7aa10e24ba597ee0bb4
+  sha256: 0e7d61a5f7caedcba45fd847baa01e3eba68887240c8bec884de63509c0a563c
 
 build:
   noarch: python
