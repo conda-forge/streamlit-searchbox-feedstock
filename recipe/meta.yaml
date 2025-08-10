@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "streamlit-searchbox" %}
-{% set version = "0.1.22" %}
+{% set version = "0.1.23" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/streamlit_searchbox-{{ version }}.tar.gz
-  sha256: b1682b75ce8839950287eb6e3509107ccbf8d4faad1b29bfdab64972621d59af
+  sha256: b72de0829d3b962f0d468d1115b73879607872c59c7a97642baba343543f1856
 
 build:
   noarch: python
